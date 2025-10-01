@@ -56,7 +56,7 @@ tax_rate = 0.04
 
 # Div1
 display(restaurant_name, target='div1')
-display(f'Est. {year_established}', target='div')
+display(f'Est. {year_established}', target='div1')
 
 # Div2
 display(f'This current chain is owned by {owner_name} which is located in Makati, Legazpi Village. We serve rotating snacks (Limited Bowls, Chips, Candies) every week, leaving a special mark on time. Do we have delivery service? {has_delivery}! We want our customers to receive the full experience by paying us a visit to the actual place. Visit us now and get a chance to meet the members!', target='div2')
@@ -98,5 +98,6 @@ def ordering_form(e):
         """
 
     display(message, target="output")
+
 
 
