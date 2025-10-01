@@ -1,4 +1,4 @@
-from pyscript import display
+from menu import some_function
 
 # NOTES FROM EX2 -------------------------------
 
@@ -65,3 +65,4 @@ display(f'This current chain is owned by {owner_name} which is located in Makati
 display(f'Take note of our opening schedule from Wednesday to Sunday ( {business_hours['Wednesday - Sunday']} ) and Monday to Tuesday when we take breaks({business_hours['Monday - Tuesday']})', target='div4')
 
 # display(f'I belong to 10 {sections[0]}', target='div1')
+
